@@ -17,13 +17,13 @@ An interactive stock market prediction web app built with **Streamlit** and **Ma
 
 ---
 
-## 🖥️ Demo
+##  Demo
 
 > Enter a ticker like `AAPL`, `TSLA`, `GOOGL`, or Indian stocks like `RELIANCE.NS` → Select history period → Click **🚀 Run Prediction**
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | [Streamlit](https://streamlit.io/) | Web app UI framework |
 | [yFinance](https://github.com/ranaroussi/yfinance) | Stock market data fetching |
@@ -54,7 +54,7 @@ http://localhost:8501
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ai-stock-predictor/
@@ -66,7 +66,7 @@ ai-stock-predictor/
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 Create a `requirements.txt` file with the following:
 
@@ -81,7 +81,7 @@ plotly
 
 ---
 
-## 📖 How to Use
+##  How to Use
 
 1. **Enter a Stock Ticker** in the sidebar (e.g. `AAPL` for Apple, `TSLA` for Tesla)
 2. **Select History Period** — how much past data to train on (1y, 2y, 5y)
@@ -103,7 +103,7 @@ plotly
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ### Random Forest Classifier
 - Trained on technical indicators: MA 20, MA 50, RSI, MACD, Volume
